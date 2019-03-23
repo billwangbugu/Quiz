@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "Question": "Which is the largest country in the world by population?",
+    "Options": [
+      { "id": "A", "value": "India" },
+      { "id": "B", "value": "USA" },
+      { "id": "C", "value": "China" },
+      { "id": "D", "value": "Russia" }
+    ],
+    "CorrectAnswer": "C"
+  },
+  {
+    "id": 2,
+    "Question": "When did the second world war end?",
+    "Options": [
+      { "id": "A", "value": "1945" },
+      { "id": "B", "value": "1939" },
+      { "id": "C", "value": "1944" },
+      { "id": "D", "value": "1942" }
+    ],
+    "CorrectAnswer": "A"
+  },
+  {
+    "id": 3,
+    "Question": "Which was the first country to issue paper currency?",
+    "Options": [
+      { "id": "A", "value": "USA" },
+      { "id": "B", "value": "France" },
+      { "id": "C", "value": "Italy" },
+      { "id": "D", "value": "China" }
+    ],
+    "CorrectAnswer": "D"
+  },
+  {
+    "id": 4,
+    "Question": "Which city hosted the 1996 Summer Olympics?",
+    "Options": [
+      { "id": "A", "value": "Atlanta" },
+      { "id": "B", "value": "Sydney" },
+      { "id": "C", "value": "Athens" },
+      { "id": "D", "value": "Beijing" }
+    ],
+    "CorrectAnswer": "A"
+  },
+  {
+    "id": 5,
+    "Question": "Who invented telephone?",
+    "Options": [
+      { "id": "A", "value": "Albert Einstein" },
+      { "id": "B", "value": "Alexander Graham Bell" },
+      { "id": "C", "value": "Isaac Newton" },
+      { "id": "D", "value": "Marie Curie" }
+    ],
+    "CorrectAnswer": "B"
+  }
+]

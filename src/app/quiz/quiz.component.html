@@ -1,0 +1,30 @@
+<div class="quiz" *ngFor="let q of quizData | async ">
+  <h2>Question {{ q.id  }}: {{ q.Question  }}</h2>
+
+<ul class="optionLi">
+  <li *ngFor="let option of q.Options  ; let idx = index">
+    <input
+      type="radio"
+      [checked]=""
+      name="select"
+      [value]="option.id"
+      (change)="onSelectionChange(option.id)"
+    />
+    {{ option.id }}. {{ option.value }}
+  </li>
+</ul>
+
+<div class="btns">
+  <span *ngIf="selectedAns !== '' && nextId !== -1">
+    <a [routerLink]="['/quiz']" (click)="goNext()">
+      <button>  Next  </button>
+    </a>
+  </span>
+  <span *ngIf="nextId === -1">    
+    <a [routerLink]="['/result']" (click)="goResult()">
+      <button>Score</button>
+    </a>
+    
+  </span>
+</div>
+</div>

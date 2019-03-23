@@ -1,0 +1,10 @@
+.optionLi {
+  list-style-type: none;
+}
+.quiz{
+  margin: 20px;
+}
+.btns{
+  text-align: right;
+}
+a button:hover{background-color: #646fce}
