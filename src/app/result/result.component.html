@@ -1,3 +1,4 @@
-<div  class="result"><h3>Your score is {{ score | async }}</h3>
-<greet [score]="score | async "></greet>
+<div class="result">
+  <h3>Your score is {{ score | async }} out of {{ numQuestions | async }}</h3>
+  <greet [score]="score | async" [numQuestions]="numQuestions | async"></greet>
 </div>

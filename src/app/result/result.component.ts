@@ -14,8 +14,10 @@ import { DataService } from "../service/dataService";
 export class ResultComponent implements OnInit {
   constructor(private store: Store<AppState>) {
     this.score = store.select("score");
+    this.numQuestions = store.select("currentId");
   }
   score: Observable<number>;
+  numQuestions: Observable<number>;
 
   ngOnInit() {}
 }
