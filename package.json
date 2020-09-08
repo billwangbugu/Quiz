@@ -15,6 +15,7 @@
     "@angular/router": "^9.1.11",
     "@ngrx/store": "^7.3.0",
     "core-js": "^2.6.5",
+    "http-proxy": "^1.18.1",
     "npm-registry-fetch": "^8.1.1",
     "rxjs": "^6.6.0",
     "rxjs-compat": "^6.4.0",
